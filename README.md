@@ -28,4 +28,5 @@ str.Close();
 email_html = email_html.Replace("[hello]", "Hello John Doe");
 email_html = email_html.Replace("[message]", "This is your message");
 email_html = email_html.Replace("[sign]", "Good luck!");
+email_html = email_html.Replace("[footer]", "Company name<br/><a href="#">back to website</a>");
 ```
